@@ -1,1 +1,2 @@
-# CierraCon1987.github.io-
+# Wags-Whiskers
+Capstone - Group Assignment - Wags &amp; Whiskers

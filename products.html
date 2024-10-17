@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Wags &amp; Whiskers</title>
+    <link rel="icon" type="image/x-icon" href="/images/wandw-favicon.svg">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/products.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="page-header">
+        <video autoplay muted loop id="background-video">
+            <source src="../images/videos/wandw-header-vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html"><img src="/images/wandw-logo-large.svg" alt="logo"></a>
+            </div>
+            <div class="link-salute">
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html" class="active">Products</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li id="login"><a href="login-register.html">Login</a><a href="login-register.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="salute">
+            <h3>Welcome to</h3>
+            <h1>Wags &amp; Whiskers!</h1>
+            <p id="tagline">Caring for Your Pets, One Wag at a Time</p>
+        </div>
+    </header>
+
+    <main>
+        <br>
+        <!-- Hero Section -->
+        <section id="hero" class="d-flex align-items-center">
+            <div class="container hero-container text-center position-relative">
+                <h1>Products</h1>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="container text-center mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-card" id="dog-product-card">
+                        <h3>Dog Products</h3>
+                        <p>Pamper your pup with our premium selection of toys,
+                            treats, and accessories designed to keep tails wagging!</p>
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card" id="cat-product-card">
+                        <h3>Cat Products</h3>
+                        <p>Treat your feline friend to top-quality food, toys,
+                            and essentials for purrfect comfort and care.</p>
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card" id="other-product-card">
+                        <h3>Other Products</h3>
+                        <p>Explore our range of specialized products for all
+                            your pets—from birds to bunnies and everything in between!</p>
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs mt-5">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#dog-products">Dog Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#cat-products">Cat Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#other-products">Other Products</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="dog-products">
+                        <!-- Dog Product Items -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="product-detail.html?id=1000001" class="card">
+                                        <img src="/images/products/1.jpeg" class="card-img-top" alt="Dog Product 1"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Classic Dog Toy<br>Treat Dispensing</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <a href="product-detail.html?id=1000002" class="card">
+                                        <img src="/images/products/2.jpeg" class="card-img-top" alt="Dog Product 2"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Classic Dog Toy<br>Bone</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <a href="product-detail.html?id=1000003" class="card">
+                                        <img src="/images/products/3.jpeg" class="card-img-top" alt="Dog Product 3"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lobster Plushie<br>Dog Toy</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <a href="product-detail.html?id=1000004" class="card">
+
+                                        <img src="/images/products/4.jpeg" class="card-img-top" alt="Dog Product 4"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tim Hortons Plushie<br>Dog Toy</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="cat-products">
+                        <!-- Cat Product Items -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="product-detail.html?id=2000001" class="card">
+                                        <img src="/images/products/24.png" class="card-img-top" alt="Cat Product 1"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Classic Cat Toy<br>Feather Ball</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <a href="product-detail.html?id=2000002" class="card">
+                                        <img src="/images/products/23.png" class="card-img-top" alt="Cat Product 2"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Classic Cat Toy<br>>Jingle Balls (3 Pack)</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <a href="product-detail.html?id=2000003" class="card">
+                                        <img src="/images/products/22.png" class="card-img-top" alt="Cat Product 3"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cat Plushie Cat Nip<br>>Cat Toy</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <a href="product-detail.html?id=2000004" class="card">
+
+                                        <img src="/images/products/18.png" class="card-img-top" alt="Cat Product 4"></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Flirt Pole Feather<br>>Cat Toy</h5>
+                                        <button class="btn btn-success">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="other-products">
+                    <!-- Other Product Items -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a href="product-detail.html?id=3000001" class="card">
+                                    <img src="/images/products/small-pet1.webp" class="card-img-top"
+                                        alt="Other Product 1"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Bat Cave <br>Small Pet Bed</h5>
+                                    <button class="btn btn-success">Add to Cart</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <a href="product-detail.html?id=3000002" class="card">
+                                    <img src="/images/products/small-pet2.webp" class="card-img-top"
+                                        alt="Other Product 2"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pumpkin<br>Small Pet Costume</h5>
+                                    <button class="btn btn-success">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <a href="product-detail.html?id=3000003" class="card">
+                                    <img src="/images/products/small-pet3.webp" class="card-img-top"
+                                        alt="Other Product 3"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Mermaid Tail<br>Character Hut</h5>
+                                    <button class="btn btn-success">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <a href="product-detail.html?id=3000004" class="card">
+                                    <img src="/images/products/small-pet4.webp" class="card-img-top"
+                                        alt="Other Product 4"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Wooden Circle<br>Aquarium Ornament</h5>
+                                    <button class="btn btn-success">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="scripts.js"></script>
+
+    </main>
+    <footer>
+        <div class="link-section">
+            <div class="company-info">
+                <h2>Social Media</h2>
+                <p>
+                    Follow us on social media for the latest updates,
+                    pet care tips, and exclusive offers! Stay connected with Wags
+                    &amp; Whiskers and join our community of pet lovers.
+                </p>
+                <div class="social-icon">
+                    <img src="images/socials/socials-facebook.svg" alt="facebook icon">
+                    <img src="images/socials/socials-x.svg" alt="x icon">
+                    <img src="images/socials/socials-instagram.svg" alt="instagram icon">
+                    <img src="images/socials/socials-pinterest.svg" alt="pinterest icon">
+                    <img src="images/socials/socials-youtube.svg" alt="youtube icon">
+                    <img src="images/socials/socials-tiktok.svg" alt="tiktok icon">
+                    <img src="images/socials/socials-whatsapp.svg" alt="whatsapp icon">
+                </div>
+            </div>
+
+            <div class="quick-link">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                </ul>
+            </div>
+
+            <div class="legal">
+                <h2>Legal</h2>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Refunds</a></li>
+                    <li><a href="#">Guarantee</a></li>
+                    <li><a href="#">Shipping</a></li>
+                </ul>
+            </div>
+
+            <div class="brand-logo">
+                <a href="index.html"><img src="images/wandw-logo-large.svg" alt="logo"></a>
+            </div>
+        </div>
+
+        <div class="copy-right-section">
+            <div class="right-section">
+                Copyright &copy; 2024 Wags &amp; Whiskers. All right reserved.
+            </div>
+
+            <div class="cookies">
+                <a href="#">Cookies Settings</a>
+                <a href="#">Cookies Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
